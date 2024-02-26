@@ -144,13 +144,13 @@ type station struct {
 	RoamCount        int    `json:"roam_count"`
 	RSSI             int    `json:"rssi"`
 	RxBytes          int64  `json:"rx_bytes"`
-	RxBytesR         int64  `json:"rx_bytes-r"`
+	RxBytesR         float64  `json:"rx_bytes-r"`
 	RxPackets        int64  `json:"rx_packets"`
 	RxRate           int    `json:"rx_rate"`
 	Signal           int    `json:"signal"`
 	SiteID           string `json:"site_id"`
 	TxBytes          int64  `json:"tx_bytes"`
-	TxBytesR         int64  `json:"tx_bytes-r"`
+	TxBytesR         float64  `json:"tx_bytes-r"`
 	TxPackets        int64  `json:"tx_packets"`
 	TxPower          int    `json:"tx_power"`
 	TxRate           int    `json:"tx_rate"`
